@@ -14,18 +14,21 @@
     <h3>Video</h3>
     <video width="720" height="340" controls>
 
-        <source src="video/Beethoven - Für Elise.webm" />
+          <source src="video/Beethoven - Für Elise.webm" />
 
       </video>
 
-    <h3>Video Autoplay</h3>
+    <h3>Video Autoplay & Fallback</h3>
       
-    <video width="720" height="340" autoplay controls>
+        <video width="720" height="340" autoplay controls>
 
+        
+            <source src="video/Above NYC - Filmed in 12K.mp4" type="video/mp4" />
+            <source src="video/Above NYC - Filmed in 12K.mp4" type="video/ogg" />
+            <source src="video/Above NYC - Filmed in 12K.mp4" type="video/webm" />
+
+        </video>    
       
-        <source src="video/Above NYC - Filmed in 12K.mp4" />
-
-      </video>
 
       
 
@@ -38,7 +41,6 @@
     <audio autoplay controls>
         <source src="audio/Kangen - Dewa 19 (Saxophone Cover by Desmond Amos).mp3" type="audio/mp3" />
     </audio>      
-    
 
 
 </body>
