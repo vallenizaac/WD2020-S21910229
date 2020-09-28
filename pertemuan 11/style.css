@@ -1,0 +1,40 @@
+body {
+    background-image:url('Foto/unklab.jpg');
+    background-size: cover;
+    background-repeat:repeat-x;
+        height: 1200px;
+        
+    background-color: rgb(105, 33, 33);
+}
+
+h1 {
+    color: white;
+    background-size: 4px;
+    margin-left: 580px;
+    font-size: 40px;
+    text-shadow:
+      
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    text-shadow: 
+
+    -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
