@@ -1,0 +1,12 @@
+.green-text {
+    background: lightgreen;
+    height: 30px;
+  }
+  .blue-text {
+    background: lightblue;
+    height: 30px;
+  }
+  span {
+   display: block;
+   background: red;
+  }
