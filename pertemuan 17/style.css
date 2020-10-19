@@ -1,0 +1,23 @@
+h1{
+    font-family: "Give You Glory", cursive;
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p.px{
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+
+}
+
+p.em{
+    font-size: 1.5em;
+    font-family: "Nunito", sans-serif;
+}
+
+p.rem{
+    font-size: 1.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
