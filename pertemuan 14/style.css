@@ -5,6 +5,7 @@
   .blue-text {
     background: lightblue;
     height: 30px;
+    color: white;
   }
   span {
    display: block;
