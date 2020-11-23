@@ -34,5 +34,15 @@ console.log(umur);
 function helloWorld()
 {
     let value = document.getElementById("umur").value;
+    document.getElementsByTagName("p")[i],innerText = value;
+    document.querySelector(".header").style.color = "red";
+    document.querySelector(".header").style.fontSize = "3em";
+    document.querySelector(".header").style.backgroundColor = "yellow";
+
+    let span = document.getElementsByTagName("span")[0];
+    span.style.color "green";
+    span.style.fontSize "1em";
+
     console.log(value);
 }
+
